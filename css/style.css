@@ -469,12 +469,12 @@ body {
 .category-card {
   padding: 50px 30px;
   text-align: center;
-  border-radius: var(--radius-5);
+  border-radius: var(--radius-10);
 }
 
 .category-card .card-icon {
   background-color: hsla(var(--color), 0.1);
-  width: 80px;
+  width: 300px;
   height: 80px;
   display: grid;
   place-items: center;
@@ -486,7 +486,7 @@ body {
 .category-card .card-text {
   color: var(--eerie-black-1);
   font-size: var(--fs-5);
-  margin-block: 15px 25px;
+  margin-block: 20px 15px;
 }
 
 .category-card .card-badge {
